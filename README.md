@@ -1,6 +1,6 @@
 # j-async
 
-# 使用方法
+## 使用方法
 ```javascript
 const urls = [
   'http://placehold.it/1300x1600/E97452/fff',
