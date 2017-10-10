@@ -12,6 +12,7 @@ const urls = [
   'http://placehold.it/749x1327/D25064/fff'
 ]
 
+// handler
 const loadImg = (url) => {
   return new Promise((res, rej) => {
     const img = new Image()
