@@ -1,6 +1,23 @@
 # j-async
 
 ## 使用方法
+
+使用NPM安装
+```shell
+npm install j-async --save-dev
+```
+
+引入asyncLimit
+
+```javascript
+// ES5
+var asyncLimit = require('j-async')
+```
+```javascript
+// ES6
+import asyncLimit = 'j-async'
+```
+
 ```javascript
 const urls = [
   'http://placehold.it/1300x1600/E97452/fff',
