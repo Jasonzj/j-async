@@ -57,9 +57,9 @@ asyncLimit(
   const res = await asyncLimit(
     urls, 
     loadImg, 
-    4, 
-    data => {
-    // ...
+    4,             
+    (data, err) => {  
+      // ...
     }
   )
 
