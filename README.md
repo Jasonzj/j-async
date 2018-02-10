@@ -39,6 +39,7 @@ const loadImg = (url) => {
   })
 }
 
+// promise
 asyncLimit(
   urls,             // 请求的url数组
   loadImg,          // 请求的处理方法(要求返回Promise对象)
@@ -50,6 +51,20 @@ asyncLimit(
 .then(results => {  // 所有请求完成回调
   // ...
 })
+
+// async/await
+;(async () => {
+  const res = await asyncLimit(
+    urls, 
+    loadImg, 
+    4, 
+    data => {
+    // ...
+    }
+  )
+
+  console.log(res)
+})()
 ```
 
 
