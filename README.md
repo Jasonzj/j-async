@@ -7,7 +7,7 @@
 npm install j-async --save-dev
 ```
 
-引入asyncLimit
+引入j-async
 
 ```javascript
 // ES5
