@@ -63,7 +63,7 @@ asyncLimit(
     }
   )
 
-  console.log(res)
+  // ...
 })()
 ```
 
