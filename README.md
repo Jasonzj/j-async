@@ -15,7 +15,7 @@ var asyncLimit = require('j-async')
 ```
 ```javascript
 // ES6
-import asyncLimit = 'j-async'
+import asyncLimit from 'j-async'
 ```
 
 ```javascript
